@@ -1,4 +1,4 @@
-def day1():
+def day1_part1():
 
     data = open('input.txt', 'r').read().split('\n')
 
@@ -13,4 +13,4 @@ def day1():
 
 if __name__ == "__main__":
 
-    print(day1())
+    print(day1_part1())
