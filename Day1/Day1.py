@@ -5,7 +5,7 @@ def day1():
     data = [[y for y in x if y.isnumeric()] for x in data]
 
     data = [
-        0 if not lst else (int(lst[0] + lst[-1])) if len(lst) > 1 else int(lst[0])
+        0 if not lst else (int(lst[0] + lst[-1])) if len(lst) > 1 else int(lst[0] + lst[0])
         for lst in data
     ]
 
