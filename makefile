@@ -9,4 +9,6 @@ folder:
 
 	@mkdir $(value)
 	@touch $(value)/$(value).py
-	@touch $(value)/input.txt
+	@echo "#data = open(<INPUT_FILE>, 'r').read().split('\n')" >> $(value)/$(value).py
+	@touch $(value)/input1.txt
+	@touch $(value)/input2.txt
